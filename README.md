@@ -19,6 +19,7 @@ Note:
 Readline libraries required. MacOS only supported.
 
 # Clone:
+Open a terminal and run following command:
 ```
 git clone <repository url>
 ```
@@ -36,7 +37,7 @@ After that go to created repository and run following command:
 make
 ```
 # Run
-Then open a terminal in current folder and run following command:
+After installation run following command:
 ```
 ./minishell
 ```
