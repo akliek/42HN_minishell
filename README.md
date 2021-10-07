@@ -44,7 +44,7 @@ Then open a terminal in current folder and run following command:
 ```
       - History
       - Searching and launching the right executable
-      - Fully implemented the builtins:
+      - Implemented the builtins:
             • echo with option -n
             • cd with only a relative or absolute path
             • pwd with no options
