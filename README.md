@@ -67,6 +67,6 @@ After installation run following command:
             • ctrl-C
             • ctrl-D
             • ctrl-\
-      - Other commads works only with default inputs      
+      - Other commads work only with default inputs      
 ```
 
