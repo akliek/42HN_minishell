@@ -6,7 +6,7 @@
 #    By: akliek <akliek@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/23 17:11:27 by akliek            #+#    #+#              #
-#    Updated: 2021/06/24 18:59:02 by akliek           ###   ########.fr        #
+#    Updated: 2021/12/07 19:09:04 by akliek           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,18 +72,18 @@ BONUSOBJ := $(BONUSSRC:.c=.o)
 all: $(NAME)
 
 $(NAME):
-		$(CC) $(CFLAGS) $(SRC)
-		ar rc $(NAME) $(OBJ)
+		@$(CC) $(CFLAGS) $(SRC)
+		@ar rc $(NAME) $(OBJ)
 
 bonus:
-		$(CC) $(CFLAGS) $(SRC) $(BONUSSRC)
-		ar rc $(NAME) $(OBJ) $(BONUSOBJ)
+		@$(CC) $(CFLAGS) $(SRC) $(BONUSSRC)
+		@ar rc $(NAME) $(OBJ) $(BONUSOBJ)
 
 clean:
-		rm -rf $(OBJ) $(BONUSOBJ) libft.h.gch
+		@rm -rf $(OBJ) $(BONUSOBJ) libft.h.gch
 
 fclean: clean
-		rm -rf $(NAME)
+		@rm -rf $(NAME)
 
 re:		
 		make fclean

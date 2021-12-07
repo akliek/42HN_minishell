@@ -6,14 +6,14 @@
 /*   By: akliek <akliek@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 12:19:29 by akliek            #+#    #+#             */
-/*   Updated: 2021/10/02 15:39:05 by akliek           ###   ########.fr       */
+/*   Updated: 2021/12/07 19:01:06 by akliek           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINISHELL_H
 # define MINISHELL_H
 
-# include "./libft/libft.h"
+# include "../libft/libft.h"
 
 # include <stdio.h>
 # include <fcntl.h>
